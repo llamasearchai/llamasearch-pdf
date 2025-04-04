@@ -3,10 +3,10 @@ requires = ["setuptools>=45", "wheel>=0.36.0", "setuptools_scm[toml]>=6.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "llamasearch-pdf"
+name = "llamasearch-pdf-llamasearch"
 description = "A comprehensive PDF processing toolkit for document workflows"
 authors = [
-    {name = "LlamaSearch.ai Team", email = "team@llamasearch.ai"}
+    {name = "llamasearch-pdf-llamasearch", email = "nikjois@llamasearch.ai"}
 ]
 readme = "README.md"
 license = {file = "LICENSE"}

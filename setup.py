@@ -47,14 +47,14 @@ extras_require["all"] = sorted(
 )
 
 setup(
-    name="llamasearch-pdf",
+    name="llamasearch-pdf-llamasearch",
     version="0.1.0",
     description="PDF processing tools for document processing workflows",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="LlamaSearch AI",
-    author_email="info@llamasearch.ai",
-    url="https://github.com/llamasearch-ai/llamasearch-pdf",
+    author_email="nikjois@llamasearch.ai",
+    url="https://llamasearch.ai",
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     python_requires=">=3.8",
